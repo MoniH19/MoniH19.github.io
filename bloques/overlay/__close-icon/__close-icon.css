@@ -1,0 +1,21 @@
+.popup__close-icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  display: flex;
+  margin-top: -50px;
+  margin-left: 430px;
+}
+
+.popup__close-icon:hover {
+  opacity: 60%;
+  transition: opacity 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  .popup__close-icon {
+    margin-top: -40px;
+    margin-left: 250px;
+  }
+}
+

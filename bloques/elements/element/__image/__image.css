@@ -1,0 +1,9 @@
+.element__image {
+  width: 282px;
+  height: 282px;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}

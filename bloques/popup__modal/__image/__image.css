@@ -1,0 +1,15 @@
+.popup__image {
+  width: 500px;
+  height: 500px;
+  border-radius: 3%;
+  display: block;
+  margin: auto;
+  margin-top: 90px;
+  }
+
+  @media screen and (max-width: 1279px) {
+    .popup__image {
+       width: 240px;
+       height: 240px;
+    }
+  }

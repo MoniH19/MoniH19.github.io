@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css"/>
+    <title>Alrededor de los EE.UU</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img class="header__logo" src="./images/headerlogo.jpg" alt="Logotipo 'Arround the U.S.'">
+      </header>
+
+      <main class="content">
+        <section class="profile">
+          <img class="profile__avatar" src="./images/Jacques C.jpg" alt="Imagen de Jacques Cousteau">
+          <h1 class="profile__title">Jacques Cousteau</h1>
+          <h5 class="profile__subtitle">Explorador</h5>
+          <img class="profile__edit" alt="Boton para editar perfil" src="./images/EditButton.png">
+          <img class="profile__button" alt="Boton para agregar Imagen" src="./images/AddButton.png">
+        </section>
+
+        <section class="overlay">
+          <div class="popup">
+            <img class="popup__close-icon" alt="Cerrar vetana emergente" src="./images/CloseIcon.png">
+            <form class="form">
+              <h2 class="form__title">Editar perfil</h2>
+              <input class="form__input" type="text" name="name" id="name">
+              <input class="form__input" type="text" name="place" id="place">
+              <input class="form__button" type="submit" value="Crear"></input>
+            </form>
+          </div>
+        </section>
+
+        <section class="elements">
+          <div class="element">
+            <img class="element__image" src="./images/image1.jpg" alt="Paisaje de rio con arboles a las orillas, bosque">
+            <img class="element__trash" src="./images/Trash.png" alt="Imagen de cesto de basura para eliminar imagenes">
+            <h3 class="element__title">Valle de Yosemite</h3>
+            <img class="element__like" src="./images/like.jpg" alt="Corazon de 'Like'">
+          </div>
+          <div class="element">
+            <img class="element__image" src="./images/image2.jpg" alt="Paisaje de lago con dos montanas de fondo">
+            <img class="element__trash" src="./images/Trash.png" alt="Imagen de cesto de basura para eliminar imagenes">
+            <h3 class="element__title">Lago Louise</h3>
+            <img class="element__like" src="./images/like.jpg" alt="Corazon de 'Like'">
+          </div><div class="element">
+            <img class="element__image" src="./images/image3.jpg" alt="Paisaje de montanas durante un atardecer">
+            <img class="element__trash" src="./images/Trash.png" alt="Imagen de cesto de basura para eliminar imagenes">
+            <h3 class="element__title">Montañas Calvas</h3>
+            <img class="element__like" src="./images/like.jpg" alt="Corazon de 'Like'">
+          </div><div class="element">
+            <img class="element__image" src="./images/image4.jpg" alt="Paisaje de montanas nevadas en una noche estrellada">
+            <img class="element__trash" src="./images/Trash.png" alt="Imagen de cesto de basura para eliminar imagenes">
+            <h3 class="element__title">Latemar</h3>
+            <img class="element__like" src="./images/like.jpg" alt="Corazon de 'Like'">
+          </div><div class="element">
+            <img class="element__image" src="./images/image.jpg" alt="Paisaje de lago con montanas de fondo durante amanecer">
+            <img class="element__trash" src="./images/Trash.png" alt="Imagen de cesto de basura para eliminar imagenes">
+            <h3 class="element__title">Vanois National Park</h3>
+            <img class="element__like" src="./images/like.jpg" alt="Corazon de 'Like'">
+          </div><div class="element">
+            <img class="element__image" src="./images/imagen6.jpg" alt="Paisaje de lago, un muelle, unas cabanas a la orilla con botes y montanas de fondo">
+            <img class="element__trash" src="./images/Trash.png" alt="Imagen de cesto de basura para eliminar imagenes">
+            <h3 class="element__title">Lago di Braies</h3>
+            <img class="element__like" src="./images/like.jpg" alt="Corazon de 'Like'">
+          </div>
+        </section>
+
+        <section class="popup__modal" id="popup__modal">
+          <img class="close" alt="Cerrar vetana emergente" src="./images/CloseIcon.png">
+          <img class="popup__image" id="popupImage" alt="Imagen de paisaje con un tamano agrandado">
+        </section>
+
+        <footer class="footer">
+          <p class="footer__copyright">	&#169; 2023 Mesto Russia</p>
+        </footer>
+      </main>
+    </div>
+    <script src="index_edit.js"></script>
+  </body>
+</html>
