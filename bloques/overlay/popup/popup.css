@@ -1,0 +1,13 @@
+.popup {
+width: 455px;
+height: 355px;
+border-radius: 2%;
+z-index: 3;
+}
+
+@media screen and (max-width: 767px) {
+  .popup {
+     width: 282px;
+     height: 322px;
+  }
+}

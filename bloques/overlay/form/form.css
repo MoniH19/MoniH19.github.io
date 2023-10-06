@@ -1,0 +1,16 @@
+.form {
+  width: 430px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  border-radius: 2%;
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    width: 282px;
+    height: 322px;
+    }
+}
