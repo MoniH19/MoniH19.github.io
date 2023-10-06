@@ -43,9 +43,9 @@ form.addEventListener('submit', function (event) {
 //este codigo abre el modal//
 
 const imagesToOpen = document.querySelectorAll('.element__image');
-const closeModalBtn = document.querySelector('.close');
-const modal = document.querySelector('.popup__modal');
-const modalImg = document.querySelector('.popup__image');
+const closeModalBtn = document.querySelector('.modal__close');
+const modal = document.querySelector('.modal');
+const modalImg = document.querySelector('.modal__image');
 
 imagesToOpen.forEach(function(image) {
   image.addEventListener('click', function() {
@@ -57,4 +57,3 @@ imagesToOpen.forEach(function(image) {
 closeModalBtn.addEventListener('click', function() {
   modal.style.display = 'none';
 });
-
