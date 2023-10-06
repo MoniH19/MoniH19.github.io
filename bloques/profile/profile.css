@@ -10,7 +10,7 @@
   "image name editar button";
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
   .profile {
       width: 282px;
       height: 286px;

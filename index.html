@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Alrededor de los EE.UU</title>
   </head>
   <body>
@@ -14,11 +14,11 @@
 
       <main class="content">
         <section class="profile">
-          <img class="profile__avatar" src="./images/Jacques C.jpg" alt="Imagen de Jacques Cousteau">
+          <img class="profile__avatar" src="./images/JacquesC.jpg" alt="Imagen de Jacques Cousteau">
           <h1 class="profile__title">Jacques Cousteau</h1>
           <h5 class="profile__subtitle">Explorador</h5>
           <img class="profile__edit" alt="Boton para editar perfil" src="./images/EditButton.png">
-          <img class="profile__button" alt="Boton para agregar Imagen" src="./images/AddButton.png">
+          <button class="profile__button" type="button"></button>
         </section>
 
         <section class="overlay">
@@ -28,7 +28,7 @@
               <h2 class="form__title">Editar perfil</h2>
               <input class="form__input" type="text" name="name" id="name">
               <input class="form__input" type="text" name="place" id="place">
-              <input class="form__button" type="submit" value="Crear"></input>
+              <input class="form__button" type="submit" value="Crear">
             </form>
           </div>
         </section>
@@ -68,16 +68,20 @@
           </div>
         </section>
 
-        <section class="popup__modal" id="popup__modal">
-          <img class="close" alt="Cerrar vetana emergente" src="./images/CloseIcon.png">
-          <img class="popup__image" id="popupImage" alt="Imagen de paisaje con un tamano agrandado">
-        </section>
+
+          <div class="modal" id="popup__modal">
+            <div class="modal__container">
+              <img class="modal__close" alt="Cerrar vetana emergente" src="./images/CloseIcon.png">
+              <img class="modal__image" id="popupImage" alt="Imagen de paisaje con un tamano agrandado" src="/images">
+            </div>
+          </div>
+
 
         <footer class="footer">
           <p class="footer__copyright">	&#169; 2023 Mesto Russia</p>
         </footer>
       </main>
     </div>
-    <script src="index_edit.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

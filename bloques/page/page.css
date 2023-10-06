@@ -21,9 +21,12 @@ body {
 
 @media screen and (max-width: 1279px) {
   .page {
+      width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
       width: 320px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
   }
 }

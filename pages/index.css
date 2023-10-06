@@ -27,6 +27,7 @@
 @import url(../bloques/elements/element/__like/__like.css);
 @import url(../bloques/footer/footer.css);
 @import url(../bloques/footer/__copyright/__copyright.css);
-@import url(../bloques/popup__modal/popup__modal.css);
-@import url(../bloques/popup__modal/__image/__image.css);
-@import url(../bloques/popup__modal/close/close.css);
+@import url(../bloques/modal/modal.css);
+@import url(../bloques/modal/__close/close.css);
+@import url(../bloques/modal/__container/__container.css);
+@import url(../bloques/modal/__image/__image.css);
