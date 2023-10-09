@@ -57,4 +57,3 @@ imagesToOpen.forEach(function(image) {
 closeModalBtn.addEventListener('click', function() {
   modal.style.display = 'none';
 });
-
