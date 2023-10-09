@@ -56,4 +56,8 @@ imagesToOpen.forEach(function(image) {
 
 closeModalBtn.addEventListener('click', function() {
   modal.style.display = 'none';
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 23b9f5720fe2dfaa9d867d1abdb32471dae0f6d9
