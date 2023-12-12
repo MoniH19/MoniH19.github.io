@@ -3,6 +3,8 @@ width: 455px;
 height: 355px;
 border-radius: 2%;
 z-index: 3;
+opacity: 0;
+transition: opacity 1.5s;
 }
 
 @media screen and (max-width: 767px) {
@@ -10,4 +12,9 @@ z-index: 3;
      width: 282px;
      height: 322px;
   }
+}
+
+.popup.active {
+  opacity: 1;
+  transition: opacity 1.5s;
 }

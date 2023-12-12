@@ -1,0 +1,13 @@
+.element__black {
+  position: absolute;
+  bottom: 35px;
+  right: 10px;
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.element__black.active {
+  visibility: visible;
+}

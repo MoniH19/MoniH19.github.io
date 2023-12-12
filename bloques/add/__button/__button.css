@@ -1,0 +1,24 @@
+.add__button {
+  width: 358px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin-bottom: 36px;
+  margin-left: 36px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.add__button:hover {
+opacity: 60%;
+transition: opacity 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .add__button {
+      width: 238px;
+      height: 46px;
+      margin-left: 22px;
+  }
+}

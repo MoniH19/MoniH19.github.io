@@ -2,11 +2,11 @@
   width: 500px;
   height: 500px;
   border-radius: 3%;
-  }
+}
 
-  @media screen and (max-width: 767px) {
-    .modal__image {
-       width: 240px;
-       height: 299px;
-    }
+@media screen and (max-width: 767px) {
+  .modal__image {
+    width: 240px;
+    height: 299px;
   }
+}

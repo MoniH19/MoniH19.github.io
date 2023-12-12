@@ -1,0 +1,19 @@
+.add__close {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  display: flex;
+  margin-left: 430px;
+}
+
+.add__close:hover {
+  opacity: 60%;
+  transition: opacity 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .add__close {
+    margin-left: 250px;
+    margin-bottom: 18px;
+  }
+}
