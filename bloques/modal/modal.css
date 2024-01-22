@@ -10,6 +10,15 @@
   overflow: auto;
   align-items: center;
   justify-content: center;
-  display: none;
   z-index: 3;
+  pointer-events: none;
+  opacity: 0;
+transition: visibility 1s, opacity 1s linear;
+}
+
+.modal__active{
+  opacity: 1;
+  transition: opacity 1.5s;
+  pointer-events: all;
+  z-index: 99;
 }

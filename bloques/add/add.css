@@ -12,6 +12,6 @@
   visibility: hidden;
 }
 
-.add.active {
+.add__active {
   visibility: visible;
 }

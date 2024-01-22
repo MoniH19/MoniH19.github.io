@@ -4,7 +4,7 @@
   border-radius: 2%;
   z-index: 3;
   opacity: 0;
-  transition: opacity 1.5s;
+  transition: visibility 1s, opacity 1s linear;
   }
 
   @media screen and (max-width: 767px) {
@@ -14,7 +14,7 @@
     }
   }
 
-.add__popup.active {
+.add__popup_active {
   opacity: 1;
   transition: opacity 1.5s;
 }

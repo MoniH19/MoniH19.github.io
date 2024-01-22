@@ -1,4 +1,4 @@
-.popup__close-icon {
+.overlay__close {
   width: 25px;
   height: 25px;
   cursor: pointer;
@@ -6,13 +6,13 @@
   margin-left: 430px;
 }
 
-.popup__close-icon:hover {
+.overlay__close:hover {
   opacity: 60%;
   transition: opacity 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 767px) {
-  .popup__close-icon {
+  .overlay__close {
     margin-left: 250px;
     margin-bottom: 18px;
   }
